@@ -1,0 +1,13 @@
+# Requirements for SARE-GT
+# Tested with Python 3.9 and CUDA 12.4 on NVIDIA RTX 3070 Ti.
+# Install PyTorch and PyG according to your CUDA version first:
+#   https://pytorch.org/get-started/locally/
+#   https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+
+torch>=2.0.0
+torch-geometric>=2.4.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+networkx>=3.0
+tqdm>=4.65.0
